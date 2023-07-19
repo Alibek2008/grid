@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.Tailor h3{
+    text-align: center;
+    font-size: 48px;
+}
+.Robust{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Tailor p{
+    line-height: 28px;
+    text-align: center;
+    margin-top: 8px;
+}
+.Tailor p span{
+    color: white;
+}
+.Robust span{
+    color: white;
+}
+.Robust p{
+    width: 280px;
+    margin-top: 8px;
+    text-align: center;
+}
+.Robust h2{
+    margin-top: 24px;
+}
+
+.kattasi{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+
+
+@media (max-width: 768px) { 
+    .kattasi{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 60px;
+    } 
+    .Robust p{
+        width: 280px;
+        margin-top: 8px;
+    }
+   .Robust{
+    line-height: 24px;
+    /* margin-
+    top: 30px; */
+   }
+}
+@media (max-width: 481px) {
+    .kattasi{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 60px;
+    }
+}
+.r2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d5fafc;
+  }
+  .r2 .container {
+    padding: 120px 0 96px;
+    margin: 0 30px;
+    position: relative;
+  }
+  .r2 .container .jjjj {
+    position: absolute;
+    top: 67px;
+    left: -90px;
+    width: 142px;
+    height: 116px;
+  }
+  .r2 .container .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 78px 78px 64px 184px 32px 184px 64px;
+    gap: 15px;
+  }
+  .r2 .container .grid .w1 {
+    grid-row: 1/3;
+    grid-column: 1/2;
+  }
+  .r2 .container .grid .air {
+    grid-row: 2/5;
+    grid-column: 2/3;
+  }
+  .r2 .container .grid .HubSpot {
+    grid-row: 4/7;
+    grid-column: 1/2;
+  }
+  .r2 .container .grid .strapi {
+    grid-row: 6/8;
+    grid-column: 2/3;
+  }
+  .r2 .container .grid .w1 {
+    max-width: 488px;
+  }
+  .r2 .container .grid .w1 h1 {
+    color: #111827;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+  }
+  .r2 .container .grid .w1 p {
+    color: #111827;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .r2 .container .grid .air,
+  .r2 .container .grid .HubSpot,
+  .r2 .container .grid .strapi {
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 2px 4px -2px rgba(17, 24, 39, 0.06), 0px 4px 8px -2px rgba(17, 24, 39, 0.1);
+    max-width: 1008px;
+    padding: 32px;
+    max-width: 488px;
+  }
+  .r2 .container .grid .air .txt,
+  .r2 .container .grid .HubSpot .txt,
+  .r2 .container .grid .strapi .txt {
+    display: flex;
+    align-content: start;
+    justify-content: start;
+    margin-top: 32px;
+  }
+  .r2 .container .grid .air .txt .img,
+  .r2 .container .grid .HubSpot .txt .img,
+  .r2 .container .grid .strapi .txt .img {
+    margin-right: 10px;
+    width: 45px;
+  }
+  .r2 .container .grid .air .txt .txt1 p,
+  .r2 .container .grid .HubSpot .txt .txt1 p,
+  .r2 .container .grid .strapi .txt .txt1 p {
+    color: #111827;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .r2 .container .grid .air .txt .txt1 h4,
+  .r2 .container .grid .HubSpot .txt .txt1 h4,
+  .r2 .container .grid .strapi .txt .txt1 h4 {
+    margin-top: 24px;
+    color: #111827;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  .r2 .container .grid .air .txt .txt1 span,
+  .r2 .container .grid .HubSpot .txt .txt1 span,
+  .r2 .container .grid .strapi .txt .txt1 span {
+    color: #6b7280;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .r2 .container .grid .HubSpot {
+    margin-left: 20%;
+    width: 80%;
+  }
+  .r2 .container .grid .strapi {
+    width: 80%;
+    margin-right: 20%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .r1 .container {
+      max-width: 688px;
+    }
+    .r1 .container h2 {
+      font-size: 36px;
+    }
+    .r1 .container p {
+      display: block;
+      max-width: 688px;
+      font-size: 18px;
+    }
+    .r1 .container .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .r1 .container .grid .g {
+      margin-top: 64px;
+    }
+    .r1 .container .grid .g h3 {
+      margin-top: 20px;
+      font-size: 24px;
+    }
+    .r1 .container .grid .g span {
+      font-size: 16px;
+      max-width: 297px;
+    }
+    .r2 .container {
+      margin: 0 40px;
+    }
+    .r2 .container .jjjj {
+      top: 67px;
+      left: -20px;
+      width: 142px;
+      height: 116px;
+    }
+    .r2 .container .grid {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: unset;
+      gap: 15px;
+    }
+    .r2 .container .grid .w1 {
+      all: unset;
+    }
+    .r2 .container .grid .air {
+      all: unset;
+    }
+    .r2 .container .grid .HubSpot {
+      all: unset;
+    }
+    .r2 .container .grid .HubSpot .txt1 {
+      max-width: 592px;
+    }
+    .r2 .container .grid svg {
+      width: 45px;
+      margin-right: 16px;
+    }
+    .r2 .container .grid .strapi {
+      all: unset;
+    }
+    .r2 .container .grid .w1 {
+      max-width: 488px;
+    }
+    .r2 .container .grid .w1 h1 {
+      font-size: 30px;
+      width: 100%;
+    }
+    .r2 .container .grid .air,
+    .r2 .container .grid .HubSpot,
+    .r2 .container .grid .strapi {
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0px 2px 4px -2px rgba(17, 24, 39, 0.06), 0px 4px 8px -2px rgba(17, 24, 39, 0.1);
+      padding: 32px;
+      max-width: 100%;
+    }
+    .r2 .container .grid .HubSpot {
+      margin-left: unset;
+    }
+    .r2 .container .grid .strapi {
+      margin-right: unset;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .r1 .container .grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+}
